@@ -1,9 +1,9 @@
+console.log(window.location);
+
+const pagina = window.location.pathname === '/' ? <div>Olá Mundo!</div> : <div>Sobre mim...</div>
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Olá Mundo!</h1>
-    </div>
-  );
+  return pagina;
 }
 
 export default App;
