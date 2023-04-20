@@ -24,6 +24,13 @@ function AppRoutes() {
             </Inicio />
           </PaginaPadrao>
 
+          Na rota "/sobremim", a estrutura a ser renderizada é: 
+
+          <PaginaPadrao>
+            </SobreMim />
+          </PaginaPadrao>
+
+
         */}
 
         <Route path="*" element={<div>Página não encontrada.</div>} />
